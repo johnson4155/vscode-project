@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Johnsonfirstproject</title>
+    <style>  
+    table{
+border-collapse: collapse;
+border-color: red;
+border-radius: 70px;
+background-color: blue;
+border-style: dashed;
+width: 100%;
+padding: 15px;
+border-spacing: 10px;
+    }
+    tr:nth-child(even){
+        background-color: crimson;
+    }
+    tr:nth-child(odd){
+        background-color: aqua;
+    }
+    .experience{
+        background-color: blueviolet;
+    }
+    .intro{
+        font-size: xx-large;
+        background-color: darkgreen;
+        font-family: 'Times New Roman', Times, serif;
+        font-weight: 400;
+
+    }
+    .personal{
+background-color: darkmagenta;
+
+    }
+    .main{
+        background-color: dodgerblue;
+    }
+    </style>
+   
+</head><br>
+ 
+
+ <a href="#md"> jump to media</a><br>
+<a href="#ci"> jump to critical information </a>
+
+<body style="background-color: chartreuse;">
+    <header>  
+        <nav>
+            <ul> 
+                <li> <a href="#home">home</a>  </li>
+                <li> <a href="#about">about</a>  </li>
+                <li> <a href="#contacts" >contacts</a> </li>
+            </ul>
+        </nav>    
+    <h1 div class="intro">introduction<h1>
+    </header>
+        <p style="background-color: deeppink;"><img src="C:\WhatsApp Images\IMG-20211210-WA0064.jpg" alt="my pic" style="float:left" style="max-width: 100%;" height="120:px;" width="120:px;"> my first project after learning html was a project onhow to build a simple website
+            ,i was very excited to start my journey as a frontend web developer .to be honest i was really afraid but the thought 
+            of being a full stack developer kept me going .now a will always remenber this moment in my life ,writing myfirst line of cosdes on visu
+            al studio code.
+        </p>
+        <br>
+        <br>
+        <br>
+        <div class="experience">   
+        <h2>my skills</h2>>
+            <ul>
+                <li>c++</li>
+                <li>sql</li>
+                <li>proficient in microsoft office an vba</li>
+                <li>html,css,javascript</li>
+                </ul>
+            </div>
+                <br>
+                <p>below are the various schools that i have attended :</p>
+                <table border="5px" >
+                    <caption> my experience:</caption>
+                    <tr>
+                        <th>name of the school</th>
+                        <th>course</th>
+                        <th>duration</th>
+                    </tr>
+                    <tr>
+                        <td>rvist</td>
+                        <td> diploma ict</td>
+                        <td> three(3)yrs</td>
+                    </tr>
+                    <tr>
+                        <td> east aftrican institute of technology   </td>
+                        <td> machine learning  </td>
+                        <td>   2years</td>
+                    </tr>
+                    <tr>  
+                        <td> hemington school of sciences </td>
+                        <td>   datascience and big data analytics  </td>
+                        <td>   2 years</td>
+                    </tr>
+                    <tr>
+                        <td>cisco</td>
+                        <td>cybersecurity</td>
+                        <td>1year</td>
+                    </tr>
+
+                </table>
+                <p> now,to signup and register fill out the following form;</p>
+                <form action="/index.html" method="post">
+                    <h3 div id="ci">   critical information  </h3>
+                    <fieldset div class="personal">   
+                        <legend> personal information</legend>
+                    
+                    <label for="firstname"> Enter your first name:</label><br>
+                    <input id="firstname" type="text" name="firstname" required><br>
+                    <label for="lastname">enter your lastname here:</label><br>
+                    <input id="lastname" type="text" name="lastname" placeholder="enter your last name" required><br>
+                    <label for="userpassword"> enter your password :</label><br>
+                    <input type="password" name="userpassword" id="userpassword"><br>
+                    <label for="userexperience"> years of experience</label><br>
+                    <input type="number" id="userexperience" name="userexperience" min="1" max="20"><br>
+                    <label for="email">your email;</label><br>
+                    <input type="email" name="email" id="email"><br>
+                    <label for="telephone"> tel no:</label><br>
+                    <input type="tel" name="telephone number" id="telephone"><br>
+                </fieldset>
+                    <p> have you ever been jailed?</p>
+                    <div class="main">   
+                    <label for="crimes">yes</label><br>
+                    <input type="checkbox" id="crimes" name="jailed?" value="yes"><br>
+                    <label for="crimes">NO</label><br>
+                    <input type="checkbox" id="crimes" name="jailed?" value="no"><br>
+                    <p> will you adhere to our rules and regulation:</p>
+                    <label for="rules">i agree</label>
+              
+                    <input type="radio" name="our rules" id="rules"><br>
+                    <label for="rules">i disagree </label>
+                    <input type="radio" name="our rules" id="rules"><br>
+                    <input type="submit" value="submit">
+                
+<p> below are my favorite cities that i would like to live in :</p>
+<label for="cities"> my favorite cities;</label>
+<select id="cities" name="cities" size="4" multiple>
+    <optgroup label="central"> 
+<option value="nakuru">nakuru</option>
+<option value="nairobi">nairobi</option>
+<option value="mombasa" selected>mombasa</option>
+<option value="narok">narok</option>
+</optgroup>
+<optgroup label="riftvalley" style="background-color: rgb(0, 255, 0);">
+
+
+<option value="naivasha">naivasha</option>
+<option value="nanyuki">nanyuki</option>
+</optgroup>
+</select>
+<p> my favorite language to work on your project:</p>
+<label for="language"> favorite programming language</label>
+<input type="text" id="language" list="favlanguage" name="fav-language">
+<datalist id="favlanguage"><br>
+<option value="php"></option>
+<option value="cpp"></option>
+<option value="html,css,javascript"></option>
+<option value="python"></option>
+<option value="vb.net"></option>
+</datalist><br>
+<br>
+<label for="summary">   summarize your feelings</label><br>
+<textarea rows="5" cols="30" id="summary" name="summary"> 
+     </textarea>
+    </div>
+<br>
+<h3 div id="md"> media </h3>   
+<p> watch a video:</p>
+
+<video src="c:\users\maina\downloads\video\html video.mp4"autoplay controls >
+
+
+video not supported
+</video><br>
+<p> play the music:</p>
+
+<embed src="c:\users\maina\downloads\music\zack brand.mp3">
+
+
+
+</form>
+</body>
+</html>
